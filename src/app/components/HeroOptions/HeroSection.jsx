@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 import { motion } from "framer-motion";
 import {
   ArrowRight,
@@ -35,10 +36,17 @@ export default function HeroSection() {
           className="flex flex-col sm:flex-row items-center gap-4 mb-8"
         >
           <div className="relative">
-            <div className="w-14 h-14 rounded-2xl bg-primary flex items-center justify-center text-white text-lg font-black shadow-md border border-white/10">
-              AI
+            <div className="w-14 h-14 rounded-2xl overflow-hidden shadow-md border border-border relative bg-primary/10">
+              <Image
+                src="/asifimam.jpg"
+                alt="Asif Imam"
+                fill
+                priority
+                sizes="56px"
+                className="object-cover"
+              />
             </div>
-            <span className="absolute -bottom-1 -right-1 flex h-3.5 w-3.5">
+            <span className="absolute -bottom-1 -right-1 flex h-3.5 w-3.5 z-10">
               <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
               <span className="relative inline-flex rounded-full h-3.5 w-3.5 bg-emerald-500 border-2 border-background"></span>
             </span>
@@ -46,14 +54,14 @@ export default function HeroSection() {
           <div className="flex flex-col items-center sm:items-start">
             <div className="flex items-center justify-center sm:justify-start gap-2">
               <span className="text-[10px] font-mono font-bold uppercase text-primary">
-                // OPEN FOR ENGINEERING ROLES
+                // OPEN FOR FULL-TIME ROLES
               </span>
             </div>
             <h2 className="text-sm font-extrabold text-foreground mt-0.5">
               {name}
             </h2>
             <div className="inline-flex items-center gap-1.5 text-[10px] font-mono font-bold text-muted-foreground mt-1">
-              <Code2 size={11} /> Frontend Developer / Full Stack Developer
+              <Code2 size={11} /> Delhi, India • 3+ Years Experience
             </div>
           </div>
         </motion.div>
@@ -69,8 +77,7 @@ export default function HeroSection() {
             id="hero-title"
             className="font-title text-[2.5rem] sm:text-6xl md:text-7xl lg:text-8xl font-black leading-[1.04] text-foreground text-center sm:text-left"
           >
-            Scalable. <span className="text-primary">Fast.</span> Production
-            Ready.
+            Frontend & Full-Stack <span className="text-primary">Developer.</span>
           </h1>
         </motion.div>
 

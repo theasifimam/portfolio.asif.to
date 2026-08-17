@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import Image from "next/image";
 import { Moon, Sun, FileText } from "lucide-react";
 import { motion } from "framer-motion";
 
@@ -44,9 +45,15 @@ export default function Header({
           onClick={(e) => handleScrollTo(e, "#home")}
           className="group flex items-center gap-2.5 text-base sm:text-lg font-black text-foreground transition-opacity hover:opacity-85"
         >
-          <span className="w-9 h-9 rounded-full bg-primary flex items-center justify-center text-white text-xs font-bold shadow-sm">
-            AI
-          </span>
+          <div className="relative w-9 h-9 rounded-full overflow-hidden border border-border/80 shadow-sm shrink-0 bg-primary/10">
+            <Image
+              src="/asifimam.jpg"
+              alt="Asif Imam"
+              fill
+              sizes="36px"
+              className="object-cover"
+            />
+          </div>
           <div className="flex flex-col">
             <span className="font-sans font-extrabold text-sm sm:text-base leading-none">
               Asif <span className="text-primary">Imam</span>
