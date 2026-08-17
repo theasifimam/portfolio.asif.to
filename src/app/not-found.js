@@ -1,0 +1,32 @@
+import React from "react";
+import Link from "next/link";
+import { Home } from "lucide-react";
+
+export default function NotFound() {
+  return (
+    <div className="min-h-screen bg-background text-foreground flex items-center justify-center p-6 text-center font-sans">
+      <div className="max-w-md w-full rounded-[2.5rem] bg-card border border-border p-8 sm:p-12 space-y-6 shadow-xs">
+        <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-secondary text-primary border border-border text-xs font-mono font-bold uppercase tracking-widest">
+          404 // Page Not Found
+        </div>
+        <h1 className="text-3xl sm:text-4xl font-black tracking-tight text-foreground">
+          Page Not Found.
+        </h1>
+        <p className="text-sm text-muted-foreground font-medium leading-relaxed">
+          The page or route you are looking for does not exist or has been relocated.
+        </p>
+        <div className="pt-4">
+          <Link
+            href="/"
+            className="inline-flex items-center gap-2 px-7 py-3.5 rounded-full bg-primary text-white font-extrabold text-xs uppercase tracking-widest hover:opacity-90 transition-all shadow-xs"
+          >
+            <Home size={15} />
+            <span>Return Home</span>
+          </Link>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+
