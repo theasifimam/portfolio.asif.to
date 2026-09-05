@@ -78,7 +78,7 @@ export default function About() {
             </div>
 
             <h3 className="text-2xl font-bold text-foreground mb-4">
-              Full-Stack Developer with 3+ Years Experience
+              Full-Stack Developer with 4 Years Experience
             </h3>
 
             <p className="text-muted-foreground text-sm sm:text-base leading-relaxed mb-5">

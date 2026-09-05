@@ -15,7 +15,7 @@ export default function HeroSection() {
   const name = "Asif Imam";
 
   const stats = [
-    { label: "Years Experience", value: "3+" },
+    { label: "Years Experience", value: "4" },
     { label: "Page Load Reduction", value: "57%" },
     { label: "Production Records", value: "100k+" },
     { label: "Core Stack", value: "MERN / Next.js" },
@@ -61,7 +61,7 @@ export default function HeroSection() {
               {name}
             </h2>
             <div className="inline-flex items-center gap-1.5 text-[10px] font-mono font-bold text-muted-foreground mt-1">
-              <Code2 size={11} /> Delhi, India • 3+ Years Experience
+              <Code2 size={11} /> Delhi, India • 4 Years Experience
             </div>
           </div>
         </motion.div>
@@ -89,7 +89,7 @@ export default function HeroSection() {
           className="max-w-3xl mb-10 mx-auto sm:mx-0"
         >
           <p className="text-base sm:text-xl font-medium leading-relaxed text-foreground text-center sm:text-left">
-            Results-driven MERN Stack Developer with 3+ years of experience
+            Results-driven MERN Stack Developer with 4 years of experience
             building scalable, high-performance web applications using React.js,
             Next.js, Node.js, Express.js, and MongoDB.
           </p>

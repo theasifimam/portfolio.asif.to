@@ -102,10 +102,12 @@ export default function Skills() {
           id="skills-heading"
           className="text-3xl sm:text-5xl font-black tracking-tight text-foreground mb-4"
         >
-          Core & Secondary <span className="text-primary">Technical Skills</span>
+          Core & Secondary{" "}
+          <span className="text-primary">Technical Skills</span>
         </h2>
         <p className="text-muted-foreground text-base sm:text-lg leading-relaxed">
-          Comprehensive full-stack toolset utilized across 3+ years of professional development for production web and mobile products.
+          Comprehensive full-stack toolset utilized across 4 years of
+          professional development for production web and mobile products.
         </p>
       </motion.div>
 

@@ -108,34 +108,36 @@ export default function Projects() {
       link: "https://RajulEye.com",
     },
     {
-      title: "Admin Dashboard",
+      title: "asif.to Admin Platform",
       category: "enterprise",
-      categoryLabel: "Operations & Admin",
-      subtitle: "Scalable admin panel for business operations",
+      categoryLabel: "Content & Operations",
+      subtitle: "Centralized administration platform for managing asif.to",
       description:
-        "Developed a scalable admin panel (admin.rajuleye.com) for product, order, and business management with secure authentication, analytics-ready architecture, and real-time operational workflows.",
-      image: "/assets/rajuleye-admin.png",
-      imageAlt: "RajulEye administration dashboard interface",
+        "Developed admin.asif.to as a centralized operations platform for managing educational content, users, analytics, media, workflows, and publishing across the asif.to ecosystem.",
+      image: "/assets/asif-admin.png",
+      imageAlt: "asif.to administration dashboard interface",
       problem:
-        "Give authorized operators one centralized place to manage products, inventory, customer orders, and sales data with high security.",
+        "Manage a growing learning platform with hundreds of pages, courses, articles, users, analytics, media, and publishing workflows without relying on multiple disconnected tools.",
       solution:
-        "Developed a React admin console connected to REST APIs, with protected access, catalog controls, stock reporting, analytics views, and order dispatch tracking.",
+        "Built a feature-rich admin platform with content management, role-based access, analytics dashboards, media management, notes, Kanban workflows, notifications, user management, and SEO-focused publishing tools.",
       contribution:
-        "Built the application interface, administration workflows, authentication checks, and backend REST data integration.",
+        "Designed and developed the admin interface, reusable management workflows, authentication and authorization, API integrations, analytics dashboards, content publishing tools, and backend-connected operational features.",
       tech: [
+        "Next.js",
         "React.js",
         "Tailwind CSS",
+        "Node.js",
         "Express.js",
         "MongoDB",
         "REST APIs",
         "JWT Auth",
       ],
       metrics: [
-        "Role-based authentication and secure token handling",
-        "Catalog, stock reporting, and inventory management",
-        "Order, dispatch, and analytics operational workflows",
+        "Centralized management for hundreds of educational pages and resources",
+        "Role-based access for authors, editors, admins, and super admins",
+        "Integrated analytics, content publishing, media, notes, and workflow management",
       ],
-      link: "https://admin.rajuleye.com",
+      link: "https://admin.asif.to",
     },
     {
       title: "Mazlis App",
@@ -184,6 +186,58 @@ export default function Projects() {
       ],
     },
     {
+      title: "Dunches",
+      category: "web",
+      categoryLabel: "Web & E-Commerce",
+      subtitle: "Online storefront for an organic snacks brand",
+      description:
+        "A responsive full-stack store with product discovery, flavor filtering, cart management, and order handling.",
+      problem:
+        "Present a snack catalog clearly and provide a mobile-friendly path from product discovery to cart and checkout.",
+      solution:
+        "Built the storefront and backend with Next.js, Node.js, Express, MongoDB, and Tailwind CSS, including flavor-based browsing and cart workflows.",
+      contribution:
+        "Handled the responsive shopping interface, product experience, backend order flow, and database integration.",
+      tech: ["Next.js", "Node.js", "Express.js", "MongoDB", "Tailwind CSS"],
+      image: "/assets/dunches.png",
+      metrics: [
+        "Flavor-based product discovery and filtering",
+        "Responsive shopping cart management",
+        "Backend order handling and data persistence",
+      ],
+      link: "https://dunches.mazlis.com",
+    },
+
+    // {
+    //   title: "AI-Based Educational Platform",
+    //   category: "web",
+    //   categoryLabel: "EdTech & Testing",
+    //   subtitle: "Online test platform with 99.8% uptime",
+    //   description:
+    //     "Developed an online test platform with 99.8% uptime and scalable API-driven architecture.",
+    //   problem:
+    //     "Deliver uninterrupted, high-concurrency online examinations with dynamic question delivery and automated evaluation.",
+    //   solution:
+    //     "Architected an API-driven frontend and backend system with robust error handling, caching, and state synchronization.",
+    //   contribution:
+    //     "Developed the interactive test interface, timer mechanisms, result calculations, and responsive student portal.",
+    //   tech: [
+    //     "React.js",
+    //     "Node.js",
+    //     "Express.js",
+    //     "MongoDB",
+    //     "REST APIs",
+    //     "Tailwind CSS",
+    //   ],
+    //   image: "/assets/web-ui.png",
+    //   metrics: [
+    //     "99.8% platform uptime achieved in production",
+    //     "Scalable API-driven architecture for rapid test delivery",
+    //     "Real-time evaluation and performance analytics",
+    //   ],
+    // },
+
+    {
       title: "HRMS System",
       category: "enterprise",
       categoryLabel: "Enterprise HRMS",
@@ -210,56 +264,6 @@ export default function Projects() {
         "Strict form validation and JWT authentication",
         "Comprehensive employee lifecycle and leave workflows",
       ],
-    },
-    {
-      title: "AI-Based Educational Platform",
-      category: "web",
-      categoryLabel: "EdTech & Testing",
-      subtitle: "Online test platform with 99.8% uptime",
-      description:
-        "Developed an online test platform with 99.8% uptime and scalable API-driven architecture.",
-      problem:
-        "Deliver uninterrupted, high-concurrency online examinations with dynamic question delivery and automated evaluation.",
-      solution:
-        "Architected an API-driven frontend and backend system with robust error handling, caching, and state synchronization.",
-      contribution:
-        "Developed the interactive test interface, timer mechanisms, result calculations, and responsive student portal.",
-      tech: [
-        "React.js",
-        "Node.js",
-        "Express.js",
-        "MongoDB",
-        "REST APIs",
-        "Tailwind CSS",
-      ],
-      image: "/assets/web-ui.png",
-      metrics: [
-        "99.8% platform uptime achieved in production",
-        "Scalable API-driven architecture for rapid test delivery",
-        "Real-time evaluation and performance analytics",
-      ],
-    },
-    {
-      title: "Dunches",
-      category: "web",
-      categoryLabel: "Web & E-Commerce",
-      subtitle: "Online storefront for an organic snacks brand",
-      description:
-        "A responsive full-stack store with product discovery, flavor filtering, cart management, and order handling.",
-      problem:
-        "Present a snack catalog clearly and provide a mobile-friendly path from product discovery to cart and checkout.",
-      solution:
-        "Built the storefront and backend with Next.js, Node.js, Express, MongoDB, and Tailwind CSS, including flavor-based browsing and cart workflows.",
-      contribution:
-        "Handled the responsive shopping interface, product experience, backend order flow, and database integration.",
-      tech: ["Next.js", "Node.js", "Express.js", "MongoDB", "Tailwind CSS"],
-      image: "/assets/dunches.png",
-      metrics: [
-        "Flavor-based product discovery and filtering",
-        "Responsive shopping cart management",
-        "Backend order handling and data persistence",
-      ],
-      link: "https://dunches.mazlis.com",
     },
   ];
 

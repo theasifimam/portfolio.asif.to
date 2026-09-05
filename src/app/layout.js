@@ -41,7 +41,7 @@ export const metadata = {
   metadataBase: new URL(siteUrl),
   title: "Asif Imam | Frontend Developer & Full-Stack MERN Developer",
   description:
-    "Asif Imam is a Frontend & Full-Stack Developer with 3+ years experience building scalable, high-performance web applications with React.js, Next.js, Node.js, Express.js, and MongoDB.",
+    "Asif Imam is a Frontend & Full-Stack Developer with 4 years experience building scalable, high-performance web applications with React.js, Next.js, Node.js, Express.js, and MongoDB.",
   keywords: [
     "Asif Imam",
     "Frontend Developer",
@@ -63,7 +63,7 @@ export const metadata = {
   openGraph: {
     title: "Asif Imam | Frontend & Full-Stack Developer",
     description:
-      "Results-driven MERN Stack Developer with 3+ years of experience building scalable and high-performance web applications.",
+      "Results-driven MERN Stack Developer with 4 years of experience building scalable and high-performance web applications.",
     url: siteUrl,
     siteName: "Asif Imam - Developer Portfolio",
     images: [
@@ -81,7 +81,7 @@ export const metadata = {
     card: "summary_large_image",
     title: "Asif Imam | Frontend & Full-Stack Developer",
     description:
-      "Results-driven MERN Stack Developer with 3+ years experience in React.js, Next.js, Node.js, and MongoDB.",
+      "Results-driven MERN Stack Developer with 4 years experience in React.js, Next.js, Node.js, and MongoDB.",
     images: ["/assets/asif.to.png"],
   },
   robots: {

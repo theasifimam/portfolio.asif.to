@@ -1,6 +1,13 @@
 import React, { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { Briefcase, Calendar, CheckCircle2, ChevronDown, ChevronUp, MapPin } from "lucide-react";
+import {
+  Briefcase,
+  Calendar,
+  CheckCircle2,
+  ChevronDown,
+  ChevronUp,
+  MapPin,
+} from "lucide-react";
 
 function ExperienceCard({ exp, index }) {
   const [isExpanded, setIsExpanded] = useState(true);
@@ -26,8 +33,7 @@ function ExperienceCard({ exp, index }) {
               {exp.role}
             </h3>
             <span className="text-sm font-semibold text-muted-foreground flex items-center gap-2 mt-1">
-              <Briefcase size={14} className="text-primary" />{" "}
-              {exp.company}
+              <Briefcase size={14} className="text-primary" /> {exp.company}
               <span className="text-xs text-muted-foreground flex items-center gap-1">
                 • <MapPin size={11} /> {exp.location}
               </span>
@@ -40,7 +46,9 @@ function ExperienceCard({ exp, index }) {
             <button
               onClick={() => setIsExpanded(!isExpanded)}
               className="p-1.5 rounded-full bg-secondary hover:bg-primary hover:text-white border border-border text-foreground transition-all duration-200 cursor-pointer"
-              aria-label={isExpanded ? "Collapse highlights" : "Expand highlights"}
+              aria-label={
+                isExpanded ? "Collapse highlights" : "Expand highlights"
+              }
             >
               {isExpanded ? <ChevronUp size={14} /> : <ChevronDown size={14} />}
             </button>
@@ -94,7 +102,7 @@ export default function Experience() {
     {
       company: "Volans Infomatics Pvt. Ltd.",
       role: "Full Stack Developer",
-      period: "Dec 2022 – Dec 2025",
+      period: "Dec 2022 – Aug 2026",
       location: "Noida, India",
       highlights: [
         "Built 50+ reusable React components, improving development efficiency by 34%.",
@@ -124,7 +132,14 @@ export default function Experience() {
         "Contributed to 5 React-based eCommerce and SaaS applications with 20+ responsive pages.",
         "Developed a Facebook web clone with responsive UI, reusable components, and dark mode support.",
       ],
-      skills: ["React.js", "JavaScript (ES6+)", "eCommerce", "SaaS", "REST APIs", "Tailwind CSS"],
+      skills: [
+        "React.js",
+        "JavaScript (ES6+)",
+        "eCommerce",
+        "SaaS",
+        "REST APIs",
+        "Tailwind CSS",
+      ],
     },
   ];
 
